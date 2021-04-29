@@ -6,6 +6,8 @@ pip list
 jupyter notebook
 jupyter lab
 
+
+https://hackernoon.com/step-by-step-guide-to-push-your-first-project-on-github-fec1dce574f
 git status
 git config --global user.name "Nalin Sharma" 
 git config --global user.email "nalinsharma87@yahoo.in"
@@ -16,3 +18,7 @@ git config --global
 git commit -m ""
 git remote add origin git@github.com:nalinsharma/BITSDissertation.git
 git remote -v
+ssh-keygen -t rsa -b 4096 -C "nalinsharma87@yahoo.in"
+............................
+git push origin master
+
